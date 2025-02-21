@@ -236,10 +236,9 @@ ul{
 
 .members{
     display: flex;
-    justify-content: space-between;
-    align-content: center;
 }
 .member{
+    width: calc((100% - 72px) / 4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,6 +251,9 @@ ul{
     background: #fff;
     
 
+}
+.member-info{
+    padding: 32px 0;
 }
 .member-team-position{
     display: flex;
