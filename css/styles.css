@@ -68,10 +68,18 @@ ul{
     margin: 0 auto;
     padding: 0 15px 0 15px
 }
-.logo{
+.logo-text-header{
     display: flex;
     justify-content: flex-start;
     margin-right: 76px;
+    display: inline-block;
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17 ;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .nav{
     display: flex;
@@ -114,6 +122,7 @@ ul{
 }
 .contacts-list{
     display: flex;
+    
     gap: 40px;
 }
 .email{
@@ -151,13 +160,14 @@ ul{
 }
 
 .button{
+    
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     display: block;
+    margin: 0 auto;
     min-width: 169px;
-    height: 56px;
     border: none;
     font-family: "Roboto",sans-serif;
     background-color: #4d5ae5;
@@ -272,6 +282,7 @@ ul{
 .member-team-name{
     color:#2e2f42;
     text-align: center;
+    margin-bottom: 8px;
 }
 
    
