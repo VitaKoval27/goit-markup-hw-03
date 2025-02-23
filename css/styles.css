@@ -3,6 +3,9 @@ h1, h2, h3, h4, h5, h6, p {
 	margin-bottom: 0;
 }
 
+ a{
+    text-decoration: none;
+ }
 ul, ol {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -64,6 +67,7 @@ ul{
 }
 .header-div{
     display: flex;
+    justify-content: space-between;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px
@@ -323,6 +327,7 @@ ul{
 }
 
 .card-info{
+    width: 100% ;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -358,15 +363,13 @@ ul{
 }
 .footer-block{
     display: block;
-    max-width: 264px ;
-   
-    margin-left: 156px;
 }
 
 .footer-text{
    
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    max-width: 264px ;
 }
 
 .logo-text{
