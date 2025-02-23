@@ -198,11 +198,7 @@ ul{
     gap: 24px;
 }
 .visually-hidden {
-    position: absolute;
-    left: -9999px; /* Перемещаем элемент за пределы экрана */
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+    display: none; /* Полностью убирает элемент из потока */
 }
 
 
