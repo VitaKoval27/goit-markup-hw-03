@@ -193,14 +193,17 @@ ul{
     
     gap: 24px;
 }
-.visually-hidden{ 
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   white-space: nowrap;  
+.visually-hidden {
+    position: absolute; /* Убираем элемент из потока документа */
+    width: 1px;        /* Уменьшаем ширину */
+    height: 1px;       /* Уменьшаем высоту */
+    margin: -1px;      /* Убираем отступы */
+    padding: 0;        /* Убираем внутренние отступы */
+    overflow: hidden;   /* Скрываем переполнение */
+    clip: rect(0, 0, 0, 0); /* Обрезаем элемент */
+    border: 0;         /* Убираем границы */
 }
+
 .feature{
    
   
